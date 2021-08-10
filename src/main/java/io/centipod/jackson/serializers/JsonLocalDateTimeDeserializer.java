@@ -53,6 +53,12 @@ public class JsonLocalDateTimeDeserializer extends JsonDeserializer<LocalDateTim
             throw new JsonParsingException("Failed to read value from JSON parser.", e);
         }
 
-        return LocalDateTime.from(this.formatter.parse(value));
+        if ((value != null) && !value.isEmpty()) {
+
+            return LocalDateTime.from(this.formatter.parse(value));
+        } else {
+
+            return null;
+        }
     }
 }
