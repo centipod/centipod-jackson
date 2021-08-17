@@ -9,7 +9,7 @@
 	<description>Wrapper for Jackson with Java Time and HAL modules</description>
 
 	<properties>
-		<maven.compiler.release>11</maven.compiler.release>
+		<maven.compiler.release>8</maven.compiler.release>
 		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<centipod.project.id>30</centipod.project.id>
