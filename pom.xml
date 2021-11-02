@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.centipod</groupId>
 	<artifactId>centipod-jackson</artifactId>
-	<version>2.13.0</version>
+	<version>3.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 	<description>Wrapper for Jackson with Java Time and HAL modules</description>
 
@@ -12,7 +12,7 @@
 		<maven.compiler.release>8</maven.compiler.release>
 		<maven.compiler.version>3.8.1</maven.compiler.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        	<jackson.version>${project.version}</jackson.version>
+        	<jackson.version>2.13.0</jackson.version>
        	 	<jackson-hal.version>1.0.9</jackson-hal.version>
 		<junit-jupiter.version>5.8.1</junit-jupiter.version>
 		<junit-platform.version>1.8.1</junit-platform.version>
