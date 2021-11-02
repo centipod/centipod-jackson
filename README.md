@@ -12,7 +12,7 @@ To use, import the below repository and dependencies.
 <repositories>
     <repository>
         <id>github</id>
-        <url>https://maven.pkg.github.com/centipod/centipod-jackson.git</url>
+        <url>https://maven.pkg.github.com/centipod/centipod-jackson</url>
     </repository>
 </repositories>
 ```
