@@ -24,7 +24,7 @@ To use, import the below repository and dependencies.
     <dependency>
         <groupId>io.centipod</groupId>
         <artifactId>centipod-jackson</artifactId>
-        <version>3.0.0-SNAPSHOT</version>
+        <version>X.Y.Z</version>
     </dependency>
 </dependencies>
 ```
